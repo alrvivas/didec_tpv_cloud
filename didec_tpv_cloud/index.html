@@ -1,0 +1,159 @@
+<!DOCTYPE html>
+<html lang="es-Mx" class="no-js">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <!-- The above 3 meta tags *must* come first in the head; any other head content must come *after* these tags -->
+    <title>Terminal Punto de Venta</title>
+
+    <!-- Bootstrap -->
+    <!--<link href="bower_components/bootstrap/dist/css/bootstrap.min.css" rel="stylesheet">-->
+
+    <!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
+    <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
+    <!--[if lt IE 9]>
+      <script src="https://oss.maxcdn.com/html5shiv/3.7.2/html5shiv.min.js"></script>
+      <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
+    <![endif]-->
+    <!--<link rel="stylesheet" type="text/css" href="css/style.css" />  -->
+    <!--<link rel="stylesheet" type="text/css" href="css/default.css" /> 
+	<link rel="stylesheet" type="text/css" href="css/component.css" />-->
+	<link rel="stylesheet" type="text/css" href="css/styles.css" />
+	
+	<link rel="stylesheet" type="text/css" href="css/material.indigo-pink.min.css">   
+    <script type="text/javascript" src="js/material.min.js"></script>
+	<script src="js/modernizr.custom.js"></script>
+  </head>
+  <body class="mdl-demo mdl-color--grey-100 mdl-color-text--grey-700 mdl-base">
+   	<div class="mdl-layout mdl-js-layout mdl-layout--fixed-header">
+   		<header class="mdl-layout__header mdl-layout__header-bacground mdl-layout__header--scroll mdl-color--transparent">	  			
+	    	<div class="mdl-layout--large-screen-only mdl-layout__header-row">	    		
+		    	<div class=" mdl-layout-spacer"></div>
+		    	<div class="mdl-textfield mdl-js-textfield mdl-textfield--expandable mdl-textfield--floating-label mdl-textfield--align-right mdl-textfield--full-width">
+	    			<form>
+			            <label class="mdl-button mdl-js-button mdl-button--icon" for="search-field">
+			              	<i class="material-icons">search</i>
+			            </label>
+			            <div class="mdl-textfield__expandable-holder">
+			              	<input class="mdl-textfield__input" type="text" id="search-field">
+			            </div>
+		            </form>
+	          	</div>
+    		</div>
+	    	<div class="mdl-typography--text-center ">
+	    		<div class="mdl-layout-title">
+	    			<h1 >Forrajera San Andres</h1>
+	    		</div>
+
+	    		
+	    	</div>
+	    	<div class="mdl-layout--large-screen-only mdl-layout__header-row">
+	    		<!---->
+	    	</div>	
+	    		
+	    </header>
+	    <div class="demo-drawer mdl-layout__drawer mdl-color--blue-grey-900 mdl-color-text--blue-grey-50">
+       		<header class="demo-drawer-header mdl-typography--text-center">
+   			 	<h4>Menú</h4>
+   			 </header>
+	  		<nav class="demo-navigation mdl-navigation mdl-color--blue-grey-800">			
+				<a class="mdl-navigation__link" href="index.html">
+					<i class="mdl-color-text--blue-grey-400 material-icons" role="presentation">home</i>Inicio
+				</a>
+				<a class="mdl-navigation__link" href="clientes.html" >
+					<i class="mdl-color-text--blue-grey-400 material-icons"  role="presentation">person</i>Clientes
+				</a>
+				<a class="mdl-navigation__link" href="punto-venta.html">
+					<i class="mdl-color-text--blue-grey-400 material-icons" role="presentation">store</i>Punto de Venta
+				</a>
+				<a class="mdl-navigation__link" href="credito-cobranza.html">
+					<i class="mdl-color-text--blue-grey-400 material-icons" role="presentation">account_balance_wallet</i>Credito y Cobranza
+				</a>
+				<a class="mdl-navigation__link" href="productos.html">
+					<i class="mdl-color-text--blue-grey-400 material-icons" role="presentation">local_florist</i>Productos
+				</a>
+				<a class="mdl-navigation__link" href="empleados.html">
+					<i class="mdl-color-text--blue-grey-400 material-icons" role="presentation">group</i>Empleados
+				</a>
+				<a class="mdl-navigation__link" href="#">
+					<i class="mdl-color-text--blue-grey-400 material-icons" role="presentation">power_settings_new</i>Salir
+				</a>
+			</nav>
+		</div>
+	  	<main class="mdl-layout__content mdl-color--grey-100">
+		  	<div class="mdl-grid demo-content mdl-layout__tab-panel is-active">	
+		  	<div class="mdl-grid">
+		  		<div class="mdl-color--white mdl-shadow--2dp mdl-cell mdl-cell--3-col mdl-grid ">
+				    <a href="add-cliente.html" class="mdl-cell--12-col mdl-typography--text-center">
+				      <i class="material-icons md-128 mdl-color-text--blue-grey-500">person_add</i>
+				      <p>Añadir Cliente</p>
+				    </a>
+				</div>
+				<div class="mdl-color--white mdl-shadow--2dp mdl-cell mdl-cell--3-col mdl-grid ">
+				    <a href="punto-venta.html" class="mdl-cell--12-col mdl-typography--text-center">
+				      <i class="material-icons md-128 mdl-color-text--pink-500">store</i>
+				      <p>Punto de Venta</p>
+				    </a>
+				</div>
+				<div class="mdl-color--white mdl-shadow--2dp mdl-cell mdl-cell--3-col mdl-grid ">
+				    <a href="credito-cobranza.html" class="mdl-cell--12-col mdl-typography--text-center">
+				      <i class="material-icons md-128 mdl-color-text--brown-500">account_balance_wallet</i>
+				      <p>Credito y Cobranza</p>
+				    </a>
+				</div>
+				<div class="mdl-color--white mdl-shadow--2dp mdl-cell mdl-cell--3-col mdl-grid ">
+				    <a href="productos.html" class="mdl-cell--12-col mdl-typography--text-center">
+				      <i class="material-icons md-128 mdl-color-text--green-500">local_florist</i>
+				      <p>Productos</p>
+				    </a>
+				</div>
+				<div class="mdl-color--white mdl-shadow--2dp mdl-cell mdl-cell--3-col mdl-grid ">
+				    <a href="empleados.html" class="mdl-cell--12-col mdl-typography--text-center">
+				      <i class="material-icons md-128 mdl-color-text--deep-orange-500">group</i>
+				      <p>Empleados</p>
+				    </a>
+				</div>
+				<div class="mdl-color--white mdl-shadow--2dp mdl-cell mdl-cell--3-col mdl-grid ">
+				    <a href="#" class="mdl-cell--12-col mdl-typography--text-center">
+				      <i class="material-icons md-128 mdl-color-text--purple-500">insert_chart</i>
+				      <p>Reportes</p>
+				    </a>
+				</div>
+				<div class="mdl-color--white mdl-shadow--2dp mdl-cell mdl-cell--3-col mdl-grid ">
+				    <a href="#" class="mdl-cell--12-col mdl-typography--text-center">
+				      <i class="material-icons md-128 mdl-color-text--indigo-500">settings</i>
+				      <p>Configuración</p>
+				    </a>
+				</div>
+				<div class="mdl-color--white mdl-shadow--2dp mdl-cell mdl-cell--3-col mdl-grid ">
+				    <a href="#" onclick = "closeWindow();" class="mdl-cell--12-col mdl-typography--text-center">
+				      <i class="material-icons md-128 mdl-color-text--red-500">power_settings_new</i>
+				      <p>Salir</p>
+				    </a>
+				</div>
+			</div>
+		  	</div>	
+			    
+				
+	   	</main>
+    </div>
+
+    <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
+    <script src="bower_components/jquery/dist/jquery.min.js"></script>
+    <!-- Include all compiled plugins (below), or include individual files as needed -->
+    <script src="bower_components/bootstrap/dist/js/bootstrap.min.js"></script>
+    <script src="js/classie.js"></script>
+		
+		<script type="text/javascript">
+			function closeWindow() {
+	            netscape.security.PrivilegeManager.enablePrivilege("UniversalBrowserWrite");
+	            alert("This will close the window");
+	            window.open('','_self');
+	            window.close();
+	        }
+		</script>
+  </body>
+</html>
+		    	
+				
